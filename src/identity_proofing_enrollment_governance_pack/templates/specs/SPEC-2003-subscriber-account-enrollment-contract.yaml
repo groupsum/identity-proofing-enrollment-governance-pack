@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "kind": "spec",
+  "id": "spc:subscriber-account-enrollment-contract",
+  "number": 2003,
+  "slug": "subscriber-account-enrollment-contract",
+  "title": "Subscriber Account Enrollment Contract",
+  "status": "accepted",
+  "origin": "extension-pack",
+  "summary": "Defines subscriber account establishment following successful proofing.",
+  "body": "## Requirements\n\n- Bind the proofing result to a unique subscriber account.\n- Use stable internal identifiers that do not expose unnecessary personal data.\n- Notify the subscriber of enrollment and material account changes.",
+  "decision_date": "2026-08-10",
+  "references": [
+    "https://pages.nist.gov/800-63-4/sp800-63a.html",
+    "https://pages.nist.gov/800-63-4/sp800-63.html"
+  ],
+  "supersedes": [],
+  "superseded_by": [],
+  "status_notes": [],
+  "tags": [
+    "identity-proofing",
+    "enrollment",
+    "ial",
+    "nist-800-63a",
+    "identity-evidence"
+  ],
+  "spec_kind": "governance",
+  "adr_ids": [
+    "adr:identity-proofing-and-enrollment-use-nist-sp-800-63a-4",
+    "adr:ial-is-independent-from-aal-and-fal",
+    "adr:proofing-evidence-and-fraud-controls-are-explicit"
+  ]
+}

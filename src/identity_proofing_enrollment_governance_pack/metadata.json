@@ -1,0 +1,32 @@
+{
+  "schema_version": "1.0.0",
+  "ssot_package_name": "identity-proofing-enrollment-governance-pack",
+  "origin": {
+    "id": "pack:identity-proofing-enrollment",
+    "package_name": "identity-proofing-enrollment-governance-pack",
+    "import_name": "identity_proofing_enrollment_governance_pack",
+    "kind": "governance-pack",
+    "title": "Identity Proofing and Enrollment Governance",
+    "description": "Governance for identity proofing, enrollment, IAL selection, evidence validation, subscriber account establishment, fraud controls, privacy, and audit evidence.",
+    "homepage": "https://github.com/groupsum/identity-proofing-enrollment-governance-pack",
+    "repository": "https://github.com/groupsum/identity-proofing-enrollment-governance-pack"
+  },
+  "compatibility": {
+    "python": ">=3.10,<3.15",
+    "ssot_registry_schema": ">=0.4.0",
+    "ssot_pack_contract": ">=0.2.17,<0.3.0"
+  },
+  "trust": {
+    "trusted_by_default": false,
+    "origin": "extension-pack",
+    "reservation_owner": "extension-pack:identity-proofing-enrollment-governance-pack"
+  },
+  "documents": {
+    "adr": {
+      "manifest_path": "templates/adr/manifest.json"
+    },
+    "spec": {
+      "manifest_path": "templates/specs/manifest.json"
+    }
+  }
+}

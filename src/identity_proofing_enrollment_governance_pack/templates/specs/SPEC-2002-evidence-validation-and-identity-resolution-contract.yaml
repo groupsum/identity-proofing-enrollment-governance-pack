@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "kind": "spec",
+  "id": "spc:evidence-validation-and-identity-resolution-contract",
+  "number": 2002,
+  "slug": "evidence-validation-and-identity-resolution-contract",
+  "title": "Evidence Validation And Identity Resolution Contract",
+  "status": "accepted",
+  "origin": "extension-pack",
+  "summary": "Defines evidence authenticity, validation, and identity resolution requirements.",
+  "body": "## Requirements\n\n- Declare authoritative evidence sources and validation methods.\n- Resolve attributes to one applicant and detect contradictory evidence.\n- Handle forged media, injection, and evidence replay explicitly.",
+  "decision_date": "2026-08-10",
+  "references": [
+    "https://pages.nist.gov/800-63-4/sp800-63a.html",
+    "https://pages.nist.gov/800-63-4/sp800-63.html"
+  ],
+  "supersedes": [],
+  "superseded_by": [],
+  "status_notes": [],
+  "tags": [
+    "identity-proofing",
+    "enrollment",
+    "ial",
+    "nist-800-63a",
+    "identity-evidence"
+  ],
+  "spec_kind": "governance",
+  "adr_ids": [
+    "adr:identity-proofing-and-enrollment-use-nist-sp-800-63a-4",
+    "adr:ial-is-independent-from-aal-and-fal",
+    "adr:proofing-evidence-and-fraud-controls-are-explicit"
+  ]
+}

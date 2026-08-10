@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "kind": "spec",
+  "id": "spc:identity-proofing-and-enrollment-contract",
+  "number": 2000,
+  "slug": "identity-proofing-and-enrollment-contract",
+  "title": "Identity Proofing And Enrollment Contract",
+  "status": "accepted",
+  "origin": "extension-pack",
+  "summary": "Defines the applicant-to-subscriber identity proofing and enrollment lifecycle.",
+  "body": "## Requirements\n\n- Model applicant, evidence, validation, resolution, enrollment, and subscriber-account states.\n- Reject enrollment when mandatory proofing evidence or control objectives are unmet.\n- Record the proofing outcome and accountable decision authority.",
+  "decision_date": "2026-08-10",
+  "references": [
+    "https://pages.nist.gov/800-63-4/sp800-63a.html",
+    "https://pages.nist.gov/800-63-4/sp800-63.html"
+  ],
+  "supersedes": [],
+  "superseded_by": [],
+  "status_notes": [],
+  "tags": [
+    "identity-proofing",
+    "enrollment",
+    "ial",
+    "nist-800-63a",
+    "identity-evidence"
+  ],
+  "spec_kind": "governance",
+  "adr_ids": [
+    "adr:identity-proofing-and-enrollment-use-nist-sp-800-63a-4",
+    "adr:ial-is-independent-from-aal-and-fal",
+    "adr:proofing-evidence-and-fraud-controls-are-explicit"
+  ]
+}

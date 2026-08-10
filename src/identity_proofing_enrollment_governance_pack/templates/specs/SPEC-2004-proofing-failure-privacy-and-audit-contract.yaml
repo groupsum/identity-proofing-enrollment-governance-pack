@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "kind": "spec",
+  "id": "spc:proofing-failure-privacy-and-audit-contract",
+  "number": 2004,
+  "slug": "proofing-failure-privacy-and-audit-contract",
+  "title": "Proofing Failure Privacy And Audit Contract",
+  "status": "accepted",
+  "origin": "extension-pack",
+  "summary": "Defines proofing failure, redress, privacy, retention, and audit behavior.",
+  "body": "## Requirements\n\n- Provide non-disclosing failures and documented redress paths.\n- Minimize and retain evidence according to declared policy.\n- Record fraud review, operator action, decision, and evidence lineage.",
+  "decision_date": "2026-08-10",
+  "references": [
+    "https://pages.nist.gov/800-63-4/sp800-63a.html",
+    "https://pages.nist.gov/800-63-4/sp800-63.html"
+  ],
+  "supersedes": [],
+  "superseded_by": [],
+  "status_notes": [],
+  "tags": [
+    "identity-proofing",
+    "enrollment",
+    "ial",
+    "nist-800-63a",
+    "identity-evidence"
+  ],
+  "spec_kind": "governance",
+  "adr_ids": [
+    "adr:identity-proofing-and-enrollment-use-nist-sp-800-63a-4",
+    "adr:ial-is-independent-from-aal-and-fal",
+    "adr:proofing-evidence-and-fraud-controls-are-explicit"
+  ]
+}
